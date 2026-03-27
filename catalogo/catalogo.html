@@ -1,0 +1,114 @@
+<!-- Define o tipo de documento HTML5 -->
+<!DOCTYPE html>
+<!-- Elemento raiz do HTML, define o idioma como português brasileiro -->
+<html lang="pt-BR">
+
+<!-- Cabeçalho do documento, contém metadados -->
+<head>
+    <!-- Define a codificação de caracteres como UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Configura a viewport para dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Netflix clone</title>
+    <!-- Link para o arquivo CSS personalizado -->
+    <link rel="stylesheet" href="catalogo.css">
+    <!-- Link para ícones do Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- Link para fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<!-- Corpo da página -->
+<body>
+    <!-- Barra de navegação -->
+    <header class="navbar" id="navbar">
+        <!-- Lado esquerdo da navbar -->
+        <div class="navbar-left">
+            <!-- Logo da Netflix -->
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+                alt="Netflix">
+            <!-- Navegação principal -->
+            <nav>
+                <!-- Lista de links de navegação -->
+                <ul class="nav-links">
+                    <!-- Link para Início, ativo -->
+                    <li><a href="https://www.alura.com.br/" class="active">Início</a></li>
+                    <!-- Link para Séries -->
+                    <li><a href="https://www.alura.com.br/">Séries</a></li>
+                    <!-- Link para Filmes -->
+                    <li><a href="https://www.alura.com.br/">Filmes</a></li>
+                    <!-- Link para Jogos -->
+                    <li><a href="https://www.alura.com.br/">Jogos</a></li>
+                    <!-- Link para Bombando -->
+                    <li><a href="https://www.alura.com.br/">Bombando</a></li>
+                    <!-- Link para Minha lista -->
+                    <li><a href="https://www.alura.com.br/">Minha lista</a></li>
+                    <!-- Link para Melhores da Alura -->
+                    <li><a href="https://www.alura.com.br/">Melhores da Alura</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Lado direito da navbar -->
+        <div class="navbar-right">
+            <!-- Ícone de busca -->
+            <i class="fas fa-search icon"></i>
+            <!-- Link para perfil infantil -->
+            <a href="../index.html" class="kids-link">Seu nome</a>
+            <!-- Contêiner de notificações -->
+            <div class="nav-notification">
+                <!-- Ícone de sino -->
+                <i class="fas fa-bell icon"></i>
+                <!-- Badge de notificação -->
+                <span class="notification-badge">42</span>
+            </div>
+            <!-- Menu do perfil -->
+            <a href="../index.html" class="profile-menu" style="text-decoration: none; color: inherit;">
+                <!-- Imagem do perfil -->
+                <img class="profile-icon" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                    alt="Profile">
+                <!-- Ícone de seta para baixo -->
+                <i class="fas fa-caret-down icon" style="font-size: 14px; margin-left: 5px;"></i>
+            </a>
+        </div>
+    </header>
+
+    <!-- Contêiner principal dos sliders -->
+    <main class="sliders-container" id="main-content">
+        <!-- O JavaScript injetará as linhas aqui -->
+    </main>
+<!-- Fim do corpo da página -->
+</body>
+<!-- Fim do documento HTML -->
+</html>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <a href="https://www.alura.com.br/" target="_blank">
+                <p>Imersão Alura AI</p>
+            </a>
+            <ul class="footer-links">
+                <li><a href="https://www.alura.com.br/" target="_blank">Perguntas frequentes</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Centro de ajuda</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Conta</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Imprensa</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Relações com investidores</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Carreiras</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Formas de assistir</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Termos de uso</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Privacidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Preferências de cookies</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Informações corporativas</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Entre em contato</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Teste de velocidade</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Avisos legais</a></li>
+                <li><a href="https://www.alura.com.br/" target="_blank">Só na Netflix</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="theme-toggle" class="theme-toggle">☀️ Light Mode</button>
+    <main>
+        <h1>Quem está assistindo?</h1>
+        <ul class="profiles-container">
+            <li>
+                <ol class="profiles">
+                    <li class="profile">
+                        <a href="catalogo/catalogo.html" onclick="localStorage.setItem('perfilAtivoImagem', '/assets/perfil-1.webp'); localStorage.setItem('perfilAtivoNome', 'Gustavo');">
+                            <img src="/assets/perfil-1.webp" alt="um personagem de aparencia 
+                        gótica, magro e pele clara">
+                            <span>Gustavo</span>
+                        </a>
+                    </li>
+                    <li class="profile">
+                        <a href="catalogo/catalogo.html" onclick="localStorage.setItem('perfilAtivoImagem', '/assets/perfil-3.webp'); localStorage.setItem('perfilAtivoNome', 'Thamiris');">
+                            <img src="/assets/perfil-3.webp" alt="um personagem de aparencia 
+                        moderna, com cabelo loiro e olhos azuis">
+                            <span>Thamiris</span>
+                        </a>
+                    </li>
+                    <li class="profile">
+                        <a href="catalogo/catalogo.html" onclick="localStorage.setItem('perfilAtivoImagem', '/assets/perfil-2.webp'); localStorage.setItem('perfilAtivoNome', 'Guilherme');">
+                            <img src="/assets/perfil-2.webp" alt="um personagem de aparencia 
+                        jovem, com cabelo castanho e olhos castanhos">
+                            <span>Guilherme</span>
+                        </a>
+                    </li> 
+                    <li class="profile">
+                        <a href="catalogo/catalogo.html" onclick="localStorage.setItem('perfilAtivoImagem', '/assets/perfil-4.webp'); localStorage.setItem('perfilAtivoNome', 'Fernanda');">
+                            <img src="/assets/perfil-4.webp" alt="um personagem de aparencia 
+                        moderna, com cabelo loiro e olhos azuis">
+                            <span>Fernanda</span>
+                        </a>
+                    </li>
+                </ol>
+            </li> 
+        </ul>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
